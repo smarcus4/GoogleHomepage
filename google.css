@@ -115,3 +115,63 @@ a{
     opacity: 1; 
     left: 10px;
 }
+
+#microphone{
+    width:20px;
+    height: 25px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.buttons{
+    top: 30px;
+    position: relative;
+    height: 35px;
+    margin: 0 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #6f6f6f;
+    border: none;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+   
+}
+
+.button-group{
+    display: flex;
+}
+
+footer{
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color: #eeeeee;
+}
+
+#footing{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    right:0;
+    top:17px;
+}
+
+#footleft{
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    padding-left: 25px;
+}
+
+#footright{
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    padding-right: 25px;
+    right:0;
+}
